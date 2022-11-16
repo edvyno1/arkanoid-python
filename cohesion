@@ -1,0 +1,71 @@
+File: arkanoid/game.py
+  Class: Arkanoid (60:0)
+    Function: __init__ 9/9 100.00%
+    Function: main_loop 5/9 55.56%
+    Function: _start_game 2/9 22.22%
+    Function: _create_screen 0/9 0.00%
+    Function: _create_background 1/9 11.11%
+    Function: _display_logo 1/9 11.11%
+    Function: _display_score_titles 1/9 11.11%
+    Function: _display_score 2/9 22.22%
+    Total: 29.17%
+  Class: StartScreen (187:0)
+    Function: __init__ 12/12 100.00%
+    Function: show 12/12 100.00%
+    Function: hide 3/12 25.00%
+    Function: _on_keyup 3/12 25.00%
+    Total: 62.5%
+  Class: Game (353:0)
+    Function: __init__ 14/18 77.78%
+    Function: update 1/18 5.56%
+    Function: _update_sprites 3/18 16.67%
+    Function: _update_lives 5/18 27.78%
+    Function: on_brick_collide 4/18 22.22%
+    Function: on_enemy_collide 2/18 11.11%
+    Function: _setup_enemies 6/18 33.33%
+    Function: release_enemy 3/18 16.67%
+    Function: _off_screen 3/18 16.67%
+    Function: _create_event_handlers 4/18 22.22%
+    Function: ball 1/18 5.56%
+    Function: __repr__ 2/18 11.11%
+    Total: 22.22%
+  Class: BaseState (651:0)
+    Function: __init__ 1/1 100.00%
+    Function: update 0/1 0.00%
+    Function: __repr__ 1/1 100.00%
+    Total: 66.67%
+  Class: GameStartState (672:0)
+    Function: __init__ 1/1 100.00%
+    Function: update 1/1 100.00%
+    Total: 100.0%
+  Class: RoundStartState (696:0)
+    Function: __init__ 4/4 100.00%
+    Function: _setup_sprites 1/4 25.00%
+    Function: _configure_ball 1/4 25.00%
+    Function: _configure_paddle 1/4 25.00%
+    Function: update 4/4 100.00%
+    Total: 55.0%
+  Class: RoundPlayState (823:0)
+    Function: __init__ 0/1 0.00%
+    Function: update 1/1 100.00%
+    Total: 50.0%
+  Class: BallOffScreenState (836:0)
+    Function: __init__ 3/3 100.00%
+    Function: update 2/3 66.67%
+    Function: _exploded 1/3 33.33%
+    Total: 66.67%
+  Class: RoundRestartState (866:0)
+    Function: __init__ 3/4 75.00%
+    Function: _setup_sprites 0/4 0.00%
+    Function: _configure_ball 0/4 0.00%
+    Function: _configure_paddle 0/4 0.00%
+    Function: update 4/4 100.00%
+    Total: 35.0%
+  Class: RoundEndState (915:0)
+    Function: __init__ 2/2 100.00%
+    Function: update 2/2 100.00%
+    Total: 100.0%
+  Class: GameEndState (955:0)
+    Function: __init__ 1/1 100.00%
+    Function: update 0/1 0.00%
+    Total: 50.0%
