@@ -1,0 +1,23 @@
+Name                           Stmts   Miss  Cover
+--------------------------------------------------
+arkanoid/__init__.py               0      0   100%
+arkanoid/event.py                 28      8    71%
+arkanoid/rounds/__init__.py        0      0   100%
+arkanoid/rounds/base.py           54     15    72%
+arkanoid/sprites/__init__.py       0      0   100%
+arkanoid/sprites/ball.py         176      9    95%
+arkanoid/sprites/brick.py         47      6    87%
+arkanoid/sprites/edge.py          70     48    31%
+arkanoid/sprites/paddle.py       268     83    69%
+arkanoid/sprites/powerup.py      138     19    86%
+arkanoid/utils/__init__.py         0      0   100%
+arkanoid/utils/util.py            38     19    50%
+tests/test_ball.py               513      0   100%
+tests/test_base_round.py          73      0   100%
+tests/test_brick.py               62      0   100%
+tests/test_event.py               37      6    84%
+tests/test_paddle.py             341      0   100%
+tests/test_powerup.py            365      0   100%
+tests/test_util.py                36      2    94%
+--------------------------------------------------
+TOTAL                           2246    215    90%
